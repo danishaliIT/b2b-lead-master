@@ -13,10 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "B2B Lead Master, Data Scraping & Email Automation",
-  description: "Expert B2B Lead Generation services by Danish Ali. We provide verified leads, email automation, and SEO growth strategies.",
+  title: "B2B Lead Master | Data Scraping & Email Automation",
+  description: "Helping agencies book 20+ meetings/month with verified data and AI-driven cold email campaigns.",
+  icons: {
+    icon: '/logo.png', // 👈 Ye line icon ko force karegi
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
